@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1000px) {
+  .contact__box {
+    text-align: center;
+  }
+}
+.cover {
+  background: url("https://image.freepik.com/free-vector/abstract-background-white-gray-shades-paper-sheets-white-background_62869-302.jpg");
+  background-size: cover;
+}
+.contact {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  border-top: ghostwhite 1.5px solid;
+}
+
+.contact__box {
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6vh;
+}
+
+.contact__info {
+  display: flex;
+  column-gap: 5vw;
+}
+
+.instagram__icon {
+  margin-bottom: 12vh;
+}

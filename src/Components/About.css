@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1000px) {
+  .bio__data {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .data {
+    text-align: center;
+    margin-left: 10vw;
+  }
+  .bio__data > img {
+    margin-bottom: 3vh;
+  }
+}
+
+.about {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  border-top: ghostwhite 1.5px solid;
+}
+
+.about__me {
+  margin-top: 3vh;
+  margin-bottom: 8vh;
+}
+
+.about__me > h2 {
+  border-bottom: gainsboro 1px solid;
+  width: fit-content;
+  margin-top: 8vh;
+}
+
+.about__button {
+  border: gainsboro 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  pointer-events: none;
+}
+
+.bio__data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6vh;
+}
+
+.bio__data > img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.education {
+  margin-top: 5vh;
+}
+
+.button__objects {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.highschool__info {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.data {
+  align-self: center;
+  margin-right: 10vw;
+}
+
+.data > p {
+  font-style: oblique;
+}
+
+.data > h2 {
+  font-family: cursive;
+}

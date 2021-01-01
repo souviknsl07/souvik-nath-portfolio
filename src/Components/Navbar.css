@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1000px) {
+  .nav__header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile__image {
+    max-height: 200px;
+    max-width: 200px;
+    align-self: center;
+  }
+
+  .information {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    align-self: center;
+    text-align: center;
+  }
+}
+
+.header {
+  margin-right: 6vw;
+  margin-left: 6vw;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+
+.nav__profile {
+  display: flex;
+  margin-left: 1vw;
+}
+
+.social__links {
+  margin-top: 12px;
+}
+
+.social__icon {
+  margin-right: 5px;
+}
+
+.header__buttons {
+  margin-top: 15px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border: none;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 10px;
+}
+
+.nav__options {
+  font-size: 13px;
+  font-weight: 800;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.displayPicture {
+  height: 42px;
+  width: 42px;
+  object-fit: contain;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile__image {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 345px;
+  width: 345px;
+  border: whitesmoke 5px solid;
+  border-radius: 50%;
+  margin-right: 2vw;
+}
+
+.nav__header {
+  background: url("https://doeren.com/wp-content/uploads/2020/06/mbl-whats-got-regulators-chirping-webcast-1024x504.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: ghostwhite 3px solid;
+}
+
+.information {
+  margin-left: 0.5vw;
+  align-self: center;
+}
+
+.information > h2 {
+  font-family: cursive;
+  font-weight: 800;
+}
+
+.information > p {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:visited {
+  text-decoration: underline;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+}
