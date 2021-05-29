@@ -57,7 +57,7 @@ function Header() {
             </a>
           </div>
           <div className="header__buttons">
-            <a href="resume.pdf" download>
+            <a href="souvik_resume.pdf" download>
               <button className="button">SEE MY RESUME </button>
             </a>
           </div>
