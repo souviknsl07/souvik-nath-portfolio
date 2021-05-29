@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 512px) {
   .bio__data {
     display: flex;
     flex-direction: column;
@@ -77,5 +77,5 @@
 }
 
 .data > h2 {
-  font-family: cursive;
+  font-family: "Roboto Slab", serif;
 }

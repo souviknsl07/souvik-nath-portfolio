@@ -40,7 +40,7 @@ function Contact() {
           </div>
           <div className="contact__info instagram__icon">
             <InstagramIcon fontSize="large" style={{ color: "#E1306C" }} />
-            <h2>@i.amsouvik</h2>
+            <h2>@iamsouviknath</h2>
           </div>
         </div>
       </div>

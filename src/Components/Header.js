@@ -9,6 +9,11 @@ function Header() {
   return (
     <div className="header">
       <div className="nav__header">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
+          rel="stylesheet"
+        />
         <div className="information">
           <h3>Hello, I'm</h3>
           <h2>Souvik Nath</h2>
@@ -42,7 +47,7 @@ function Header() {
               </span>
             </a>
             <a
-              href="https://www.instagram.com/i.amsouvik/"
+              href="https://www.instagram.com/iamsouviknath/"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,7 +62,7 @@ function Header() {
             </a>
           </div>
         </div>
-        <img className="profile__image" src="me.jpg" alt="" />
+        <img className="profile__image" src="me.jpg" alt="Souvik Nath" />
       </div>
     </div>
   );

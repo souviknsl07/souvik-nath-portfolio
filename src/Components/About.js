@@ -7,6 +7,11 @@ function About() {
       <div className="about__me">
         <div className="bio__data">
           <img src="me.jpg" alt="" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
+            rel="stylesheet"
+          />
           <div className="data">
             <h2>Souvik Nath</h2>
             <h4>Student</h4>
